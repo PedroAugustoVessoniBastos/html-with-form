@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<html>
+<head>
+<style>
+        table, th, td{
+            border: 1px solid rgb(117, 19, 209)
+        }
+        table{
+            width: 40%;
+        }
+</style>
+    <title>Campeonato WayCup</title>
+</head>
+<body>
+    <h1>
+        Pré Requisitos e Inscrição Para o Cmapeonato
+    </h1>
+    <p>
+        <b>Listas de patrocinio e Categorias</b>
+    </p>
+    <p>
+        <strong>Patrocinadores</strong>
+    </p>
+    <!--
+        Lista Abaixo com os patrocinadores
+    -->
+    <ul>
+        <li>Power Grip</li>
+        <li>Crossfiteria</li>
+        <li>Vita Point</li>
+        <li>Crossfit Saltoro</li>
+    </ul>
+    <!-- 
+        Lista abaixo com as categorias
+    -->
+    <p>
+        <strong>Categorias</strong>
+    </p>
+    <ol type="1">
+        <li>Fitness Quartetos</li>
+        <li>Scale Quartetos</li>
+        <li>Amador Trios</li>
+        <li>Rx Misto</li>
+    </ol>
+    <!--
+        tabelas da categoria Fitiness
+    -->
+    <table>
+        <caption>Pré-Requisitos Fitness</caption>
+        <thead>
+            <th>Exercicios</th>
+            <th>Carga</th>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Clean and Jerk</td>
+            <td>95/45 lbs</td>
+        </tr>
+            <td>Snatch</td>
+            <td>75/45 lbs</td>
+        <tr>
+            <td>thrusther</td>
+            <td>75/45 lbs</td>
+        </tr>
+        <tr>
+            <td>Deadlift</td>
+            <td>135/95 lbs</td>
+        </tr>
+        </tbody>
+    </table>
+<!--
+    Os bumeros de cargas são diferenciados como Mascluino/Feminino
+-->
+    <table>
+<!--
+    Pré Requisitos Categoria Scale
+-->
+        <caption>Pré-Requisitos Scale</caption>
+        <thead>
+            <th>Exercicos</th>
+            <th>Carga</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Clean and Jerk</td>
+                <td>115/85 lbs</td>
+            </tr>
+            <tr>
+                <td>Snatch</td>
+                <td>95/65 lbs</td>
+            </tr>
+            <tr>
+                <td>thrusther</td>
+                <td>95/65 lbs</td>
+            </tr>
+            <tr>
+                <td>Deadlift</td>
+                <td>165/105 lbs</td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+<!--
+    Pre requisitos categoria amador
+-->
+        <caption>Pré-Requisitos Amador</caption>
+        <thead>
+            <th>Exercicios</th>
+            <th>Cargas</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Clean Nad Jerk</td>
+                <td>155/105 lbs</td>
+            </tr>
+            <tr>
+                <td>Snatch</td>
+                <td>135/95 lbs</td>
+            </tr>
+            <tr>
+                <td>Thrusther</td>
+                <td>135/95 lbs</td>
+            </tr>
+            <tr>
+                <td>Deadlift</td>
+                <td>225/155 lbs</td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+<!--
+    pre requisitos RX
+-->
+        <caption>Pré-Requisitos RX</caption>
+        <thead>
+            <th>Exercicios</th>
+            <th>Cargas</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Clean and Jerk</td>
+                <td>225/155 lbs</td>
+            </tr>
+            <tr>
+                <td>Snatch</td>
+                <td>185/115 lbs</td>
+            </tr>
+            <tr>
+                <td>thrusther</td>
+                <td>185/115 lbs</td>
+            </tr>
+            <tr>
+                <td>Deadlift</td>
+                <td>275/185 lbs</td>
+            </tr>
+        </tbody>
+    </table>
+    <p>
+        <b>Área de inscrição do Cmapeonato</b>
+    </p>
+<!--
+Formulario para inscrição do campeonato
+-->
+    <form>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            Nome:<br>
+            <input type="text" name="nome"><br>
+            Idade:<br>
+            <input type="text" name="idade"><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </fieldset>
+    </form>
+    <form>
+        <fieldset>
+            <legend>Categoria Desejada</legend>
+                <input type="radio" name="Categoria" value="Fitiness" checked> Fitness<br>
+                <input type="radio" name="Categoria" value="Scale" > Scale<br>
+                <input type="radio" name="Categoria" value="Amador" > Amador<br>
+                <input type="radio" name="Categoria" value="RX" > RX
+        </fieldset>
+    </form> <form>
+        <fieldset>
+            <legend>Cidade De Onde Você Vem</legend>
+                <select name="Cidade">
+                    <option value="Cianorte">Cianorte</option>
+                    <option value="Umuarama">Umuarama</option>
+                    <option value="Pranavai">Pranavaí</option>
+                    <option value="Cascavel">Cascavel</option>
+                    <option value="Maringa">Maringá</option>
+                </select>
+        </fieldset>
+    </form>
+</body>
+</html>
